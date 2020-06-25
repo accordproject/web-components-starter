@@ -1,5 +1,5 @@
 # web-components-starter
-Starter React app for using AP web components
+Starter React app for using AP web components.
 
 To develop:
 
