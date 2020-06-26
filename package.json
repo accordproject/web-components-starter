@@ -1,0 +1,56 @@
+{
+  "name": "web-components-starter",
+  "version": "1.0.0",
+  "description": "Starter React app for using AP web components",
+  "main": "index.js",
+  "dependencies": {
+    "@accordproject/markdown-slate": "0.11.3",
+    "@accordproject/ui-concerto": "0.93.2-20200626160144",
+    "@accordproject/ui-markdown-editor": "0.93.2-20200626160144",
+    "@babel/runtime": "^7.10.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-monaco-editor": "^0.36.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2",
+    "slate": "^0.58.3",
+    "slate-history": "^0.58.3",
+    "slate-react": "^0.58.3",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-transform-runtime": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "monaco-editor-webpack-plugin": "^1.9.0",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode production",
+    "start": "webpack-dev-server --mode development --watch "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/accordproject/web-components-starter.git"
+  },
+  "author": "accordproject.org",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/accordproject/web-components-starter/issues"
+  },
+  "homepage": "https://github.com/accordproject/web-components-starter#readme"
+}
