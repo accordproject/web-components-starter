@@ -21,8 +21,6 @@ import ConcertoEditor from './ConcertoEditor';
 import MonacoEditor from 'react-monaco-editor';
 
 const ConcertoFormDemo = (props) => {
-  console.log('rendering concerto form!')
-
   // Source model file text
   const [model, setModel] = useState(`namespace io.clause.demo.fragileGoods
 

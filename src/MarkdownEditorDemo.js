@@ -77,8 +77,6 @@ const propsObj = {
  * MarkdownEditor demo
  */
 export const MarkdownEditorDemo = () => {
-  console.log('rendering editor!')
-
   /**
    * Current Slate Value
    */

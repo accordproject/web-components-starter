@@ -5,13 +5,13 @@ To develop:
 
 ```
 npm i
-npm start
+npm run start
 ```
 
 To build:
 
 ```
-npm build
+npm run build
 ```
 ---
 
