@@ -5,8 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "@accordproject/markdown-slate": "0.11.3",
-    "@accordproject/ui-concerto": "0.93.2-20200626160144",
-    "@accordproject/ui-markdown-editor": "0.93.2-20200626160144",
+    "@accordproject/ui-concerto": "0.93.2-20200702221818",
+    "@accordproject/ui-markdown-editor": "0.93.2-20200702221818",
     "@babel/runtime": "^7.10.3",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
